@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;300&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    color: antiquewhite;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+    /* opacity: 9; */
+}
+
+.icon img{
+    width: 37px;
+    margin: 0px 131px 2px 14px;
+    height: 37px;
+}
+
+h1{
+    margin: 18px 0px 0px 0px;
+    color: ghostwhite;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+p{
+    color: ghostwhite;
+    font-size: 1.1rem;
+    margin: 28px 46px 0px 40px;
+    padding: 10px 48px 0px 42px;
+}
+
+.section-1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./images/1_Zmn8_aLtwF0HBSABxctNiA.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 16px 0px 0px 11px;   
+    scroll-behavior: smooth;
+
+}
+.section-2{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./images/peaky-blinders-wallpaper-preview.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 16px 0px 0px 11px;   
+    scroll-behavior: smooth;
+
+}
+
+.section-2 h1{
+    color: whitesmoke;
+    margin-right: 47%;
+
+}
+.section-2 p{
+    margin-right: 32%;
+    padding-right: 13%;
+    /* margin: 4px 66px 16px 22px; */
+}
+
+.section-3{
+    width: 100vw;
+    height: 100vh;
+    background-color:antiquewhite;
+    background-size: cover;
+    text-align: center;
+    padding: 16px 0px 0px 11px;   
+    scroll-behavior: smooth;    
+}
+
+.section-3 img{
+    margin-right: 64%;
+    width: 39%;
+    position: relative;
+    
+}
+
+.section-3 h1{
+    color: #000000db;
+    position: relative;
+    margin: 14px 18px 34px 24px 12px;
+    margin-top: -22%;
+    margin-left: 40%;
+    padding: -28px 0px 76px 0px;
+}
+
+.section-3 p{
+     color: #000000db;
+     margin-left: 40%;
+     display: flex;
+     margin-top: 0px;
+     position: absolute;
+     padding: 0px 0px 0px 40px;
+ }
+
+table{
+    color: black;
+    width: 42%;
+    height: 50%;
+    display: inline-flex;
+    margin-top: 255px;
+    margin-right: 58%;
+}
+
+th, td{
+    border: 2px solid #3d3b3b;
+    width: 50%;
+    height: 50%;
+}
+  
+.section-4{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./images/maxresdefault\ \(1\).jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 38px 0px 0px 9px;   
+    scroll-behavior: smooth;
+
+}
+.section-5{
+    width: 100vw;
+    height: 215vh;
+    background-color: rgb(187, 182, 176);
+    background-size: cover;
+    text-align: center;
+    scroll-behavior: smooth;
+
+}
+
+.section-4 h1{
+    margin: 0px 0px 0px 0px;
+    padding: 8px 0px 7px 0px;
+}
+
+.image{
+    position: absolute;
+    /* margin: -105px 86px 55px 23px; */
+    margin-left: 54%;
+    margin-top: -18%;
+    width: 84vw;
+}
+
+.section-5 img{
+    width: 37vw;
+    height: 46vh;
+    margin-left: 60%;
+    margin-top: 10px;
+}
+
+
+.info h1{
+    margin-right: 59%;
+    margin-top: -23%;
+}
+
+.info h5{
+    margin-right: 50%;
+    margin-top: -14px;
+    margin-bottom: 26px;
+}
+
+.info h2{ 
+    margin-right: 71%;
+
+}
+.info p{
+    padding-right: 36%;
+    margin-top: -1%;
+    text-align: justify;
+}
+
+.heading-1 h2{
+    position: relative;
+    margin-right: 59%;
+    margin-top: -23%;
+}
+
+.heading-2 h2{
+    position: relative;
+    margin-right: 58%;
+}
+.heading-3 h2{
+    position: relative;
+    margin-right: 64%;
+    margin-top: -12%;
+}
+.heading-4 h2{
+    position: relative;
+    margin-right: 62%;
+}
+
+.section-5 .img1{
+    margin-top: -10%;
+}
+.section-5 .img2{
+    margin-top: -19%;
+}
+
+.footer{
+    text-align: center;
+}
+
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/6sHG.gif);
+    background-size: cover;
+    background-repeat: round;
+    padding-top: 1%;
+    background-position: initial;
+}
+
+#container h1{
+    margin: 0px 0px 20px 0px;
+    padding: 5px 0px 15px 0px;
+}
+
+form{
+    display: grid;
+    text-align: center;
+    margin: -7px 132px 0px 111px;
+    padding: 0px 7px 0px 22px;
+    border: 2px solid #dfc9c9;
+    border-radius: 26px;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 0px 44px 0px 46px;
+}
+
+.btn{
+    color: #d4d5d7;
+    background-color: #000000;
+    border: 1px solid #7c7ba5;
+    width: 7vw;
+    height: 5vh;
+    text-align: center;
+    margin-bottom: 21px;
+    margin-left: 46%;
+    font-size: 1.1rem;
+    padding: 1px 1px 1px 1px;
+}
+
+
+.social-icon{
+    display: flex;
+    margin-left: 44%;
+}
+
+.social-icon i{
+    margin: 1px 3px 0px 7px;
+    padding: 0px 0px 2px 1px;
+    cursor: pointer;
+}
+
+@media (max-width: 300px) {
+    
+body{
+    color: antiquewhite;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+    /* opacity: 9; */
+}
+
+.icon img{
+    width: 37px;
+    margin: 0px 131px 2px 14px;
+    height: 37px;
+}
+
+h1{
+    margin: 18px 0px 0px 0px;
+    color: ghostwhite;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+p{
+    color: ghostwhite;
+    font-size: 1.1rem;
+    margin: 28px 46px 0px 40px;
+    padding: 10px 48px 0px 42px;
+}
+
+.section-1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./images/1_Zmn8_aLtwF0HBSABxctNiA.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 16px 0px 0px 11px;   
+    scroll-behavior: smooth;
+
+}
+
+}
+
+span{
+    color: #0c0404;
+}
